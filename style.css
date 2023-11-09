@@ -7,14 +7,54 @@
     display: flex;
     justify-content: center;
 }
+.title{
+    text-align: center;
+    margin: 50px;
+}
 
-.main-container{
+.warning{
+    color: red;
+    display: none;
+}
+.main{
     justify-content: space-between;
+    flex-direction: column;
     margin: auto;
     width: 50%;
     height: 50%;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.main-container{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    justify-content: space-between;    
+    flex-direction: column;
+    /* border: 2px solid red; */
+    align-items: center;
 }
 
 #result{
     display: none;
+}
+
+.container{
+    display: flex;
+    margin: 75px;
+    justify-content: space-between;
+}
+
+.input-main{
+    margin: 10px;
+}
+
+.btn-main{
+    width: 100px;
+    align-items: center;
+}
+
+.final-btn{
+    width: 100px;
 }
